@@ -1,0 +1,44 @@
+[debug] [2022-11-30T14:11:10.812Z] ----------------------------------------------------------------------
+[debug] [2022-11-30T14:11:10.815Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\suvo_\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-30T14:11:10.816Z] CLI Version:   11.8.0
+[debug] [2022-11-30T14:11:10.816Z] Platform:      win32
+[debug] [2022-11-30T14:11:10.816Z] Node Version:  v16.15.1
+[debug] [2022-11-30T14:11:10.817Z] Time:          Wed Nov 30 2022 20:11:10 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-11-30T14:11:10.818Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-30T14:11:10.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-30T14:11:10.828Z] > authorizing via signed-in user (suvo975@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\react-resturant-project\resturant
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-30T14:12:27.719Z] > refreshing access token with scopes: []
+[debug] [2022-11-30T14:12:27.723Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-30T14:12:27.724Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-30T14:12:28.541Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-30T14:12:28.541Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-30T14:12:28.555Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-30T14:12:29.534Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-30T14:12:29.534Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project resturant-website-app (Resturant website) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
